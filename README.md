@@ -28,7 +28,7 @@ After building the project, you can find the generated JavaDocs in the `doc` fol
 3. Run the `./build.sh` (Linux/macOS)
 
 
-#Running the program
+# Running the program
 
 ### Command-Line Arguments
 
