@@ -8,7 +8,7 @@ WordMatcher is a utility program for finding occurrences of predefined words wit
 
 # Building the project
 
-While this project is structured as a Maven project, we've included Bash scripts to simplify building it without Maven. You can compile and run the Java code directly if you prefer.
+While this project is structured as a Maven project, I have included Bash scripts to simplify building it without Maven. You can compile and run the Java code directly if you prefer.
 The build process will generate a single JAR file named `WordMatcher-0.0.1-SNAPSHOT.jar`. This JAR will be executable and includes a manifest with the the main class for running the application.
 
 After building the project, you can find the generated JavaDocs in the `doc` folder within the project's root directory. Open the index.html file in your browser to view the documentation.
