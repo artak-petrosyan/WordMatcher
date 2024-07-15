@@ -48,14 +48,15 @@ The program requires the following command-line arguments:
 3. Enter information for prompted inputs and press Enter
 
 #### Option 2: Using Java
-1. Run  `.java -jar build/WordMatcher-0.0.1-SNAPSHOT.jar <text_file> <predefined_words_file> <Yes/No>`
+1. Run  `java -jar build/WordMatcher-0.0.1-SNAPSHOT.jar <text_file> <predefined_words_file> <Yes/No>`
 
 #### Option 3: Using Maven
 1. Run `mvn exec:java -Dtext_file=<text_file> -Dpredefined_words_file=<predefined_words_file> -Dsave_csv=<Yes/No>` 
 
 If optional save as CSV flag was ON you can find `result.csv` file the project's root directory.
 
-#Running Tests
+# Running Tests
+
 Project has 2 tests:
 - Unit test for Trie class.
 - Integration test for WordMatcher
