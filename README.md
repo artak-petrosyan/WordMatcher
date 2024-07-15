@@ -32,7 +32,7 @@ After building the project, you can find the generated JavaDocs in the `doc` fol
 
 ### Command-Line Arguments
 
-The program requires the following command-line arguments:
+The program has the following command-line arguments:
 
 - `args[0]` (mandatory): The path to the input text file.
 - `args[1]` (mandatory): The path to the file containing predefined words.
